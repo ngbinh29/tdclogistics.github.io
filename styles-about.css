@@ -1,0 +1,42 @@
+body {
+  color: #1a1110;
+  background-color: #25291c;
+  
+}
+
+main {
+  background-image: url(Assets/home-page-background-unsplash.jpg);
+  background-size: cover;
+
+}
+
+.row.text-center {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+
+.modal-dialog {
+  color: #25291c;
+}
+
+/* the code below is for section with id="ITZY" */
+#TDC {
+  margin-bottom: 16px;
+}
+
+h1 {
+  color: #e60026;
+  
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+}
+
+h1, .rounded{
+  background: rgba(250, 250, 250, 0.4);
+  backdrop-filter: blur(16px);
+}
+
+.rounded {
+  
+  padding: 8px 16px;
+}

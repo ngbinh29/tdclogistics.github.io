@@ -1,0 +1,21 @@
+form {
+  background-color: hsla(0, 0%, 6%, 0.5);;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+body {
+  color: hsla(360, 100%, 100%, 0.80);
+  background: #303030;
+}
+
+legend {
+  text-align: center;
+  text-decoration: underline;
+}

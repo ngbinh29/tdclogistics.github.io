@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Nguyen Duc Binh">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is website for TDC Logistics">
+        <title>TDC</title>
+        <link rel="stylesheet" href="styles-main.css">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles-pricing.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-xl navbar-light bg-light nav-pills nav-fill rounded-bottom" aria-label="Primary Navigation">
+                <div class="container-fluid">
+                    <a href="main.html" class="navbar-brand" aria-current="page">TDC</a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+                        aria-label="Expand Navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="nav">
+                        <ul class="navbar nav">
+                            <li class="nav-item">
+                                <a href="main.html" class="nav-link"><em>About us</em></a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="services.html" class="nav-link"><em>Services</em></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="pricing.html" class="nav-link"><em>Pricing</em></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact_us.html" class="nav-link"><em>Contact us</em></a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text text-center">
+                            <em>Faster and Better</em>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1 class="text-center mt-2 mt-lg-3"><em>Pricing</em></h1>
+            <!--! FOR MEMBERS / START -->
+            <div class="container-fluid" id="Pricing">
+                <div class="row row-cols-1 row-cols-xl-5 g-4 mt-2 mb-4 mt-lg-4">
+                    <div class="col">
+                        <div class="card text-bg-light" id="yeji">
+                            <div class="card-body">
+                                <figure>
+                                    <img src="/Assets/pricing-warehousing.jpg" class="card-img-top img-fluid" alt="warehousing"
+                                        title="Warehousing and Distribution">
+                                    <figcaption class="img-credit" style="font-size: 12px;">Photo by: <a href="https://unsplash.com/">Unsplash</a></figcaption>
+                                </figure>
+                                <div class="card-title fs-4">Warehousing and Distribution</div>
+                                <dl>
+                                    <dt>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</dt>
+                                    <dd>$$$$$$$$</dd>
+                                </dl>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdropWarehousing">More</button>
+                            </div>
+                            <div class="modal fade" id="staticBackdropWarehousing" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl modal-dialog-centered modal-fullscreen-lg-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <p class="modal-title fs-5 h1" id="staticBackdropLabel">Warehousing and Distribution</p>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Information of
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card text-bg-light" id="lia">
+                            <div class="card-body">
+                                <figure>
+                                    <img src="Assets/pricing-forwarding.jpg" class="card-img-top img-fluid" alt="pricing-forwarding"
+                                        title="Freight Forwarding" loading="lazy">
+                                    <figcaption class="img-credit" style="font-size: 12px;">Photo by: <a href="https://unsplash.com/">Unsplash</a></figcaption>
+                                </figure>
+                                <div class="card-title fs-4">Freight Forwarding</div>
+                                <dl>
+                                    <dt>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</dt>
+                                    <dd>$$$$$$$$</dd>
+                                </dl>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdropForwarding">More</button>
+                            </div>
+                            <div class="modal fade" id="staticBackdropForwarding" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl modal-dialog-centered modal-fullscreen-lg-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <p class="modal-title fs-5 h1" id="staticBackdropLabel">Freight Forwarding</p>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Information of
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-bg-light" id="ryujin">
+                            <div class="card-body">
+                                <figure>
+                                    <img src="/Assets/chuttersnap-eqwFWHfQipg-unsplash.jpg" class="card-img-top img-fluid" alt="Inventory Management"
+                                        title="Inventory Management" loading="lazy">
+                                    <figcaption class="img-credit" style="font-size: 12px;">Photo by: <a href="https://unsplash.com/">Unsplash</a></figcaption>
+                                </figure>
+                                <div class="card-title fs-4">Inventory Management</div>
+                                <dl>
+                                    <dt>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dt>
+                                    <dd>$$$$$$$$$$$$$</dd>
+                                </dl>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdropInventory">More</button>
+                            </div>
+                            <div class="modal fade" id="staticBackdropInventory" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl modal-dialog-centered modal-fullscreen-lg-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <p class="modal-title fs-5 h1" id="staticBackdropLabel">Inventory Management</p>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Information of
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card text-bg-light" id="chaeryeong">
+                            <div class="card-body">
+                                <figure>
+                                    <img src="/Assets/arno-senoner-yqu6tJkSQ_k-unsplash.jpg" class="card-img-top img-fluid" alt="Courier Services"
+                                        title="Courier Services" loading="lazy">
+                                    <figcaption class="img-credit" style="font-size: 12px;">Photo by: <a href="https://unsplash.com/">Unsplash</a></figcaption>
+                                </figure>
+                                <div class="card-title fs-4">Courier Services</div>
+                                <dl>
+                                    <dt>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</dt>
+                                    <dd>$$$$$$$</dd>
+                                </dl>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdropCourier">More</button>
+                            </div>
+                            <div class="modal fade" id="staticBackdropCourier" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl modal-dialog-centered modal-fullscreen-lg-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <p class="modal-title fs-5 h1" id="staticBackdropLabel">Courier Services</p>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Information of
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card text-bg-light" id="yuna">
+                            <div class="card-body">
+                                <figure>
+                                    <img src="/Assets/chuttersnap-fN603qcEA7g-unsplash.jpg" class="card-img-top img-fluid" alt="Contract Logistics"
+                                        title="Contract Logistics" loading="lazy">
+                                    <figcaption class="img-credit" style="font-size: 12px;">Photo by: <a href="https://unsplash.com/">Unsplash</a></figcaption>
+                                </figure>
+                                <div class="card-title fs-4">Contract Logistics</div>
+                                <dl>
+                                    <dt>Lorem ipsum dolor sit amet consectetur adipisicing elit.</dt>
+                                    <dd>$$$$$$$$$</dd>
+                                </dl>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdropContract">More</button>
+                            </div>
+                            <div class="modal fade" id="staticBackdropContract" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl modal-dialog-centered modal-fullscreen-lg-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <p class="modal-title fs-5 h1" id="staticBackdropLabel">Contract Logistics</p>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Information of
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+        
+                    <!--** ADD details later-->
+        
+        
+            </div>
+                <!--! FOR MEMBERS / END -->
+        </main>
+        <footer>
+            <div class="rounded-top">
+                <p>
+                    &lt;&lt;&lt; &copy; <a href="about_me.html">Nguyen Duc Binh</a> &gt;&gt;&gt;
+                </p>
+                <p>
+                    <a href="#">Back to Top</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

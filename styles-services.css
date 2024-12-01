@@ -1,0 +1,15 @@
+body {
+  background: #303030;
+}
+
+.row.text-center {
+  color: hsla(331, 100%, 50%, 0.8);
+}
+
+
+
+.carousel-caption {
+  background-color: hsla(13, 100%, 0%, 0.5);
+  font-size: 42px;
+}
+

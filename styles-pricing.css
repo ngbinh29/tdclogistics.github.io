@@ -1,0 +1,17 @@
+body {
+  background-color: #303030;
+}
+
+h1  {
+  color: hsla(331, 100%, 50%, 0.8);
+}
+
+.card-title {
+  text-decoration: underline;
+}
+
+.btn.btn-outline-dark {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+}
