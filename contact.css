@@ -10,12 +10,18 @@ form {
   gap: 16px;
 }
 
+html {
+  height: 100vh;
+}
+
 body {
   color: hsla(360, 100%, 100%, 0.80);
   background: #303030;
+  
 }
 
 legend {
   text-align: center;
   text-decoration: underline;
 }
+

@@ -2,6 +2,10 @@ body {
   background-color: #303030;
 }
 
+html {
+  height: 100vh;
+}
+
 h1  {
   color: hsla(331, 100%, 50%, 0.8);
 }
@@ -14,4 +18,15 @@ h1  {
   position: absolute;
   right: 32px;
   bottom: 32px;
+}
+
+
+h1 > em {
+  color: #e60026;
+}
+
+img {
+  max-width: 20vw;
+  max-height: 32vh;
+  object-fit: cover;
 }
