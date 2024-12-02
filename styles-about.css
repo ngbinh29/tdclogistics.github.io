@@ -4,6 +4,10 @@ body {
   
 }
 
+html {
+  height: 100vh;
+}
+
 main {
   background-image: url(Assets/home-page-background-unsplash.jpg);
   background-size: cover;
@@ -39,4 +43,8 @@ h1, .rounded{
 .rounded {
   
   padding: 8px 16px;
+}
+
+.col-lg-3 {
+  padding-bottom: 1rem;
 }
